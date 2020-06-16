@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #FFE4C4;
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+<style>
+.mySlides {display:none;}
+</style>
+
+
+<body>
+<body background="images/bg.gif">
+<center><img src="images/2.png" height="80"></center>
+<hr>
+<style>
+	a{
+		color: black;
+	}
+</style>
+<div style="background-color: #FFE4C4">
+<center><table style="width:80%">
+<tr>
+	<th style="font-family:courier;"><a href="index.html">HOME</th>
+	<th style="font-family:courier;"><a href="biodata.html">BIODATA</th>
+	<th style="font-family:courier;"><a href="experience.html">EXPERIENCE</th>
+	<th style="font-family:courier;"><a href="education.html">EDUCATION</th>
+	<th style="font-family:courier;"><a href="family.html">FAMILY</th>
+	<th style="font-family:courier;"><a href="gallery.html">GALLERY</th>
+</tr>
+</center>
+</table>
+</div>
+</hr>
+<hr>
+
+<body>
+  <table>
+    <tr>
+<center><p style="font-family: lucida console"><u>Diploma</u></p></center>
+<center><p style="font-family: Times New Roman">Kolej Poly-Tech MARA Alor Setar<br>
+ 2017 until 2020<br>
+ Diploma in Office Management and Technology in Collaboration with UiTM<br>
+ Studying at there give me a lot of new memories that I'll keep cherished<br>
+ Being one of the best student at there give me a lot of experience<br>
+I also be part of the best club at there which is Office Management Student Association (OMSA)<br>
+I've being pointed as the President of that club for 2019/2020 session<br>
+Here are some memories that I've created at there
+</p>
+</center>
+</tr>
+
+<center>
+  <tr>
+      <center>
+        <img src="images/ed1.png" width="1000">
+<br><hr>
+<tr>
+<center><p style="font-family: lucida console"><u>Secondary School</u></p></center>
+<center><p style="font-family: times new roman">
+  Sekolah Menengah Kebangsaan Seri Nibong<br>
+  2012 until 2016<br>
+  My first ever experience being far from my family<br>
+  Stay at hostel from the first year until my final year at that school<br>
+  Highschool give me a lot of unforgetable memories and a friendship<br>
+  There's a saying that say "highschool friends is someone that cant be replaced"<br>
+  At there I know who is my enemy and my friends<br>
+  Living in hostel had made me an independent girl<br>
+  Some memories
+</p>
+</center>
+</tr>
+
+
+<center>
+  <tr>
+      <center>
+
+<div class="w3-content w3-section" style="max-width:700px">
+  <img class="mySlides" src="images/ed8.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed9.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed10.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed11.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed12.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed13.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed14.jpg" style="width:100%">
+  <img class="mySlides" src="images/ed15.jpg" style="width:100%">
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 6 seconds
+}
+</script>
+</tr>
+</center>
+
+<br><hr>
+<center><p style="font-family: lucida console"><u>Primary School</u></p></center>
+<center><p style="font-family: times new roman">
+  Sekolah Kebangsaan Sungai Acheh<br>
+  2005 until 2011<br>
+  My first place where I learn to read, count and write<br>
+  Be experiencing how to make friends<br>
+  First place where i used to sing in front of many people<br>
+  Learning about life<br>
+  A childhood memory that I will never forget
+</p>
+</center>
+</tr>
+</table>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<br><hr>
+</body>
+</html>

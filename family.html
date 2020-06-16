@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Family</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+p {
+  text-align: center;
+  font-family: lucida console;
+  font-size: 15px;
+}
+
+h3 {
+  text-align: center;
+  font-family: Lucida Calligraphy;
+  color: #ffaa00;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #FFE4C4;
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ 
+a{
+    color: black;
+  }
+  
+</style>
+<body>
+<body background="images/bg.gif">
+<center><img src="images/2.png" height="80"></center>
+<hr>
+
+<div style="background-color: #FFE4C4">
+<center><table style="width:80%">
+<tr>
+	<th style="font-family:courier;"><a href="index.html">HOME</th>
+	<th style="font-family:courier;"><a href="biodata.html">BIODATA</th>
+	<th style="font-family:courier;"><a href="experience.html">EXPERIENCE</th>
+	<th style="font-family:courier;"><a href="education.html">EDUCATION</th>
+	<th style="font-family:courier;"><a href="family.html">FAMILY</th>
+	<th style="font-family:courier;"><a href="gallery.html">GALLERY</th>
+</tr>
+</center>
+</table>
+</div>
+</hr>
+<hr>
+
+<br>
+<center><canvas id="myCanvas" width="365" height="50" style="border:2px solid #FFE4C4;"></canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "22px pristina";
+ctx.fillText("The family is one of nature masterpieces.",50,30);
+</script>
+</center>
+
+<center>
+  <div style="background-color: white">
+<h3>My Little Family</h3>
+<p>
+ <u style="font-family: Lucida Calligraphy">My mother</u><br>
+  <br>My mother name is Rosiah binti Othman<br>
+  She is 54 years old<br>
+  Currently working as Operators at <br>
+  <em><b><a href="https://www.ysfoam.com/">YSFoam Industries Sdn. Bhd.</a></b></em><br>
+  A single mother<br>
+  <br>
+  <u style="font-family: Lucida Calligraphy">My Sisters</u><br><br>
+  My oldest sister name is Nur Syamiera binti Mat Saini<br>
+  She is 25 years old<br>
+  My second sister name is Nur Syamimi binti Mat Saini<br>
+  She is 23 years old<br>
+  Both of them are helping my mother at home<br>
+  They both work as a nanny for 2 kids
+  <br><br>
+  <u style="font-family: Lucida Calligraphy">My Father</u><br><br>
+  My father name is Mat Saini bin Hassan<br>
+  He was passed away since I was 14 years old<br>
+</p>
+
+</div>
+</center>
+
+
+</body>
+</html>

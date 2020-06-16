@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #FFE4C4;
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+ a{
+    color: black;
+  }
+</style>
+
+	<title>Home</title>
+<body>
+<body background="images/bg.gif">
+<center><img src="images/2.png" height="80"></center>
+<hr>
+
+<div style="background-color: #FFE4C4">
+<center><table style="width:80%">
+<tr>
+	<th style="font-family:courier;"><a href="index.html">HOME</th>
+	<th style="font-family:courier;"><a href="biodata.html">BIODATA</th>
+	<th style="font-family:courier;"><a href="experience.html">EXPERIENCE</th>
+	<th style="font-family:courier;"><a href="education.html">EDUCATION</th>
+	<th style="font-family:courier;"><a href="family.html">FAMILY</th>
+	<th style="font-family:courier;"><a href="gallery.html">GALLERY</th>
+</tr>
+</center>
+</table>
+</div>
+</hr>
+
+<hr>
+
+<table style="width:95%">
+<tr>
+<th><br><br><img src="images/5.jpg" width="300"></th>
+	<td><center>
+	<div style="background-color: white">
+<p style="font-family:courier;" "font-size:20%">Hi! i'm Lala.<br>Foodie. Student. Love to sing. 
+<br>Seeking to be inspired, to envision the unlikely,<br> to work hard for things that are worth it,<br>and to be surrounded by those who bring out the best in me.<br><br>"You might not know how tough the fight is<br> until you step in and settle it by own."
+</p>
+</div>
+
+<center><audio controls autoplay>
+  <source src="me.ogg" type="audio/ogg">
+  <source src="me.mp3" type="audio/mpeg">
+</audio>
+</center>
+
+</center>
+</td>
+</tr>
+</table>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</head>
+</html>
